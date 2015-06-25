@@ -11,13 +11,12 @@ buildscript {
 apply plugin: 'android-library'
 
 dependencies {
-    compile fileTree(dir: 'libs', include: '*.jar')
-    compile 'com.google.android.gms:play-services:3.2.+'
+    compile 'com.google.android.gms:play-services-maps:7.0+'
 }
 
 android {
     compileSdkVersion 19
-    buildToolsVersion "19"
+    buildToolsVersion "22.0.1"
 
     sourceSets {
         main {
